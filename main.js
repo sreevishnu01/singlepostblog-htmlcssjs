@@ -14,5 +14,5 @@ togle.addEventListener("click", () => {
 window.addEventListener("load", () => {
     setTimeout(() => {
         loader.style.display = 'none';
-    }, 1000)
+    }, 300)
 })
