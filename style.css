@@ -23,9 +23,9 @@
 }
 
 ::placeholder {
-    color: var(--black);
+    color: var(--energy);
     opacity: 1; /* Firefox */
-    font-size: 1.2rem;
+    font-size: 16px;
     padding-left: 10px;
   }
   
@@ -105,13 +105,20 @@ header{
     color: var(--energy);
 }
 
+
 .navbar .nav-items form input{
-    height: 2rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 16px 0 10px;
 }
 
 .navbar .nav-items form i{
     color: var(--white);
     cursor: pointer;
+}
+.navbar .nav-items form i:hover{
+    color: var(--energy);
 }
 /* socials */
 
