@@ -90,7 +90,7 @@ header{
 }
 .nav-items{
     
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -144,6 +144,9 @@ header{
 }
 
 /* main */
+.location a:hover{
+    color: var(--energy);
+}
 
 main{
     width: 100%;
